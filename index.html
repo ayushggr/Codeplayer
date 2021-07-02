@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100&family=Lobster&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePlayer</title>
+</head>
+<body>
+  <div class="nav">
+    <div class="logo">CodePlayer</div>
+    <div class="nav-links active" id="html">HTML</div>
+    <div class="nav-links" id="css">CSS</div>
+    <div class="nav-links" id="javascript">JavaScript</div>
+    <div class="nav-links active" id="output">Output</div>
+    <div class="nav-links" id="javascript-run">Run JavaScript</div>
+  </div>
+  <div class="bodyContainer">
+    <textarea name="" id="htmlPanel" cols="30" rows="10" class="textContainer">
+      <p>Welcome to my CodePlayer.</p>
+    </textarea>
+    <textarea name="" id="cssPanel" cols="30" rows="10" class="textContainer hidden">
+      p {
+        color: green;
+      }
+    </textarea>
+    <textarea name="" id="javascriptPanel" cols="30" rows="10" class="textContainer hidden">
+      alert("Don't use JavaScript for malicious reasons !!");
+    </textarea>
+    <iframe src="" frameborder="0" class="textContainer" id="outputPanel"></iframe>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

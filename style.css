@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.logo {
+  margin: 5px;
+  font-family: "Lobster", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  float: left;
+}
+.nav {
+  background-color: #003b35;
+  color: white;
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+.nav-links {
+  float: left;
+  font-family: "Ubuntu", sans-serif;
+  float: left;
+  border: 13px solid #003b35;
+  font-size: 20px;
+  position: relative;
+  left: 30%;
+  top: 0px;
+}
+.active {
+  background-color: #00796a;
+  border: 13px solid#00796a;
+}
+.highlighted-button {
+  border: 13px solid #00796a;
+  background-color: #00796a;
+}
+textarea {
+  width: 50%;
+  font-size: 20px;
+  resize: none;
+  border-style: none solid none none;
+  border-color: #00796a;
+  outline: none;
+}
+.textContainer {
+  width: 50%;
+  float: left;
+}
+.hidden {
+  display: none;
+}
+#javascript-run {
+  position: relative;
+  left: 52%;
+}
